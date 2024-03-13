@@ -1,0 +1,97 @@
+@media screen and (min-width: 600px) {
+    .image-banner{
+        width:250px;
+        margin-left:30px;
+    }
+    .item-card{
+        width:47%;
+        flex-grow: 2;
+    }
+    .item-picture{
+        width:50%;
+    }
+    .item-info{
+        width:50%;
+    }
+
+    .item-container{
+        display:flex;
+        flex-wrap: wrap;
+        width:100%;
+        padding:10px;
+        gap:30px;
+    }
+
+    .item-info-title{
+        display:flex;
+        align-items: center;
+        font-family: "Roboto Flex",sans-serif;
+        font-size:15px;
+        font-weight: 700;
+        color:#252525;
+        margin-top:10px;
+    
+    }
+    .item-info-price{
+        font-family: "Raleway","Roboto Flex",sans-serif;
+        font-size:16px;
+        margin:10px 0px;
+        color:#575757;
+        font-weight: 600;;
+    }
+    .item-info-description{
+        color:#666;
+        font-size:14px;
+        font-weight: 500;
+        font-family: "Raleway";
+        max-height:60px;
+        overflow:hidden;
+        margin:5px 0px;
+        height:35%;
+    }
+    .item-info-cart{
+        display : flex;
+        justify-self: flex-end;
+        align-items: center;
+        margin: auto 0px;
+        font-family: "Raleway","Roboto Flex",sans-serif;
+        color: var(--var-rosacro);
+        font-weight: 500;
+        font-size:15px;
+        height:20%;
+        align-items: center;
+        flex-wrap: wrap;
+        
+    }
+}
+
+@media screen and (min-width: 800px){
+    .to-right{
+        display:none !important;
+    }
+    .lista-food{
+        justify-content: space-around;
+    }
+    .order-info{
+        justify-content: flex-end !important;
+    }
+    .type-order-button{
+        width:340px;
+    }
+    .toogle-left,.toogle-right{
+        font-size:14px;
+    }
+    .section-name{
+        padding-left:40px;
+    }
+    .food-menu-button{
+        margin-left:20px;
+    }
+    #principal-container{
+        display:flex;
+        flex-direction:column;
+        width:60%;
+        min-width:800px;
+        align-items: center !important;
+    }
+}

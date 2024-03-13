@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles/responsive1.css">
+</head>
+
+<body>
+    <header>
+
+        <div id="info-restaurant">
+            <div class="header-banner">
+                <div class="menu-buton">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <div class="image-banner">
+                    <img src="styles/logoTransparente.jpg" alt="">
+                </div>
+            </div>
+            <div class="section-name">
+                <h1> Menu </h1>
+            </div>
+            
+            <div class="order-info">
+                <div class="type-order-button">
+                    <div class="toogle-left">
+                        Entrega a Domicilio
+                    </div>
+                    <div class="toogle-right selected">
+                        Recogida
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+       
+        
+
+        <div class="food-menu">
+            <div class="food-menu-button">
+                <i class="fa-solid fa-ellipsis-vertical menu-icon"></i>
+                <i class="fa-solid fa-bars menu-icon"></i>
+                
+
+            </div>
+
+
+            <i class="fa-solid fa-caret-left to-left oculto"></i>
+
+            <ul class="lista-food">
+
+                <li class="lista-food-item">
+                    <div class="button-div"><span>Comidas</span><i class="fa-solid fa-caret-down list-item-after" data-open="0" data-index="0"></i>
+                    </div>
+                    
+                    <div class="dropdown oculto">
+                        <ul>
+                            <li><a href="#entrantes" class="submenu-button">Entrantes</a></li>
+                            <li><a href="#desayunos" class="submenu-button">Desayunos</a></li>
+                            <li><a href="#criollas" class="submenu-button">Comida Criolla</a></li>
+                            <li><a href="#sandwich" class="submenu-button">Sandwich</a></li>
+                            <li><a href="#hamburguesas" class="submenu-button">Hamburguesas</a></li>
+                            <li><a href="#hotdog" class="submenu-button">Hot Dog</a></li>
+
+                        </ul>
+                    </div>
+                </li>
+                <li class="lista-food-item">
+
+                    <div class="button-div"><span>Pizza/Pasta</span><i class="fa-solid fa-caret-down list-item-after" data-open="0" data-index="1"></i>
+                    </div>
+                    <div class="dropdown oculto">
+                        <ul>
+                            <li><a href="#pizza" class="submenu-button">Pizza</a></li>
+                            <li><a href="#pizza-familiar" class="submenu-button">Pizza Familiar</a></li>
+                            <li><a href="#pastas" class="submenu-button">Pastas</a></li>
+
+                        </ul>
+                    </div>
+                </li>
+                <li class="lista-food-item">
+                    <div class="button-div"><span>Tacos</span><i class="fa-solid fa-caret-down list-item-after" data-open="0" data-index="2"></i>
+    
+                    </div>
+                    <div class="dropdown oculto">
+                        <ul>
+                            <li><a href="#tacos" class="submenu-button">Tacos</a></li>
+
+                        </ul>
+                    </div>
+                </li>
+                <li class="lista-food-item">
+                    <div class="button-div"><span>Bebidas</span><i class="fa-solid fa-caret-down list-item-after" data-open="0" data-index="3"></i>
+    
+                    </div>
+                    <div class="dropdown oculto">
+                        <ul>
+                            <li><a href="#bebidas" class="submenu-button">Bebidas</a></li>
+                            <li><a href="#cocteles" class="submenu-button">Cocteles</a></li>
+                            <li><a href="#infusiones-cafe" class="submenu-button">Infusiones-Cafe</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="lista-food-item">
+                    <div class="button-div"><span>Postres</span><i class="fa-solid fa-caret-down list-item-after" data-open="0" data-index="4"></i>
+    
+                    </div>
+                    <div class="dropdown oculto">
+                        <ul>
+                            <li><a href="#dulces" class="submenu-button">Dulces</a></li>
+                            <li><a href="#helado" class="submenu-button">Helado</a></li>
+
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+
+            <i class="fa-solid fa-caret-right to-right"></i>
+            
+            
+        </div>
+       
+        
+
+
+        
+    </header>
+
+    <section id="principal-container">
+        
+
+        
+
+        <div id="cards-menu">
+            <div id="Comidas">
+                <h1 class="menu-category-title">Comidas</h1>
+                <div id="Entrantes" class="submenu">
+                    <h2 class="menu-subcategory-title">Entrantes</h2>
+                    <hr>
+                    <div class="item-container">
+                        <div class="item-card">
+                            <div class="item-picture"> 
+                                <img src="images/desayuno-mariposa.jpg" alt="" srcset="">
+                            </div>
+                            <div class="item-info">
+                                <div class="item-info-title">
+                                    Desayuno Mariposa con jamon
+                                </div>
+                                <div class="item-info-price">
+                                    $400
+                                </div>
+                                <div class="item-info-description">
+                                    Huevos al gusto, tres tostadas, mantequilla, jamón y queso            
+                                </div>
+                                <div class="item-info-cart">
+                                    <button type="submit"  class="agg">
+                                        <i class="fa-solid fa-cart-plus"></i>
+                                        <div class="agg-text">
+                                            <span>Agregar</span>
+                                            <span>al carrito</span>
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item-card">
+                            <div class="item-picture"> 
+                                <img src="images/desayuno-mariposa.jpg" alt="" srcset="">
+                            </div>
+                            <div class="item-info">
+                                <div class="item-info-title">
+                                    Desayuno Mariposa con jamon
+                                </div>
+                                <div class="item-info-price">
+                                    $400
+                                </div>
+                                <div class="item-info-description">
+                                    Huevos al gusto, tres tostadas, mantequilla, jamón y queso            
+                                </div>
+                                <div class="item-info-cart">
+                                    <button type="submit"  class="agg">
+                                        <i class="fa-solid fa-cart-plus"></i>
+                                        <div class="agg-text">
+                                            <span>Agregar</span>
+                                            <span>al carrito</span>
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item-card">
+                            <div class="item-picture"> 
+                                <img src="images/desayuno-mariposa.jpg" alt="" srcset="">
+                            </div>
+                            <div class="item-info">
+                                <div class="item-info-title">
+                                    Desayuno Mariposa con jamon
+                                </div>
+                                <div class="item-info-price">
+                                    $400
+                                </div>
+                                <div class="item-info-description">
+                                    Huevos al gusto, tres tostadas, mantequilla, jamón y queso            
+                                </div>
+                                <div class="item-info-cart">
+                                    <button type="submit"  class="agg">
+                                        <i class="fa-solid fa-cart-plus"></i>
+                                        <div class="agg-text">
+                                            <span>Agregar</span>
+                                            <span>al carrito</span>
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item-card">
+                            <div class="item-picture"> 
+                                <img src="images/desayuno-mariposa.jpg" alt="" srcset="">
+                            </div>
+                            <div class="item-info">
+                                <div class="item-info-title">
+                                    Desayuno Mariposa con jamon
+                                </div>
+                                <div class="item-info-price">
+                                    $400
+                                </div>
+                                <div class="item-info-description">
+                                    Huevos al gusto, tres tostadas, mantequilla, jamón y queso            
+                                </div>
+                                <div class="item-info-cart">
+                                    <button type="submit"  class="agg">
+                                        <i class="fa-solid fa-cart-plus"></i>
+                                        <div class="agg-text">
+                                            <span>Agregar</span>
+                                            <span>al carrito</span>
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   
+                </div>
+
+                <div id="Desayunos" class="submenu">
+                    <h2 class="menu-subcategory-title">Desayunos</h2>
+                    <hr>
+                    <div class="item-container">
+                        <div class="item-card">
+                            <div class="item-picture"> 
+                                <img src="images/desayuno-mariposa.jpg" alt="" srcset="">
+                            </div>
+                            <div class="item-info">
+                                <div class="item-info-title">
+                                    Desayuno Mariposa con jamon
+                                </div>
+                                <div class="item-info-price">
+                                    $400
+                                </div>
+                                <div class="item-info-description">
+                                    Huevos al gusto, tres tostadas, mantequilla, jamón y queso            
+                                </div>
+                                <div class="item-info-cart">
+                                    <button type="submit"  class="agg">
+                                        <i class="fa-solid fa-cart-plus"></i>
+                                        <div class="agg-text">
+                                            <span>Agregar</span>
+                                            <span>al carrito</span>
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item-card">
+                            <div class="item-picture"> 
+                                <img src="images/desayuno-mariposa.jpg" alt="" srcset="">
+                            </div>
+                            <div class="item-info">
+                                <div class="item-info-title">
+                                    Desayuno Mariposa con jamon
+                                </div>
+                                <div class="item-info-price">
+                                    $400
+                                </div>
+                                <div class="item-info-description">
+                                    Huevos al gusto, tres tostadas, mantequilla, jamón y queso            
+                                </div>
+                                <div class="item-info-cart">
+                                    <button type="submit"  class="agg">
+                                        <i class="fa-solid fa-cart-plus"></i>
+                                        <div class="agg-text">
+                                            <span>Agregar</span>
+                                            <span>al carrito</span>
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item-card">
+                            <div class="item-picture"> 
+                                <img src="images/desayuno-mariposa.jpg" alt="" srcset="">
+                            </div>
+                            <div class="item-info">
+                                <div class="item-info-title">
+                                    Desayuno Mariposa con jamon
+                                </div>
+                                <div class="item-info-price">
+                                    $400
+                                </div>
+                                <div class="item-info-description">
+                                    Huevos al gusto, tres tostadas, mantequilla, jamón y queso            
+                                </div>
+                                <div class="item-info-cart">
+                                    <button type="submit"  class="agg">
+                                        <i class="fa-solid fa-cart-plus"></i>
+                                        <div class="agg-text">
+                                            <span>Agregar</span>
+                                            <span>al carrito</span>
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item-card">
+                            <div class="item-picture"> 
+                                <img src="images/desayuno-mariposa.jpg" alt="" srcset="">
+                            </div>
+                            <div class="item-info">
+                                <div class="item-info-title">
+                                    Desayuno Mariposa con jamon
+                                </div>
+                                <div class="item-info-price">
+                                    $400
+                                </div>
+                                <div class="item-info-description">
+                                    Huevos al gusto, tres tostadas, mantequilla, jamón y queso            
+                                </div>
+                                <div class="item-info-cart">
+                                    <button type="submit"  class="agg">
+                                        <i class="fa-solid fa-cart-plus"></i>
+                                        <div class="agg-text">
+                                            <span>Agregar</span>
+                                            <span>al carrito</span>
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   
+                </div>
+                <div id="Comida Criolla" class="submenu">
+                    <h2 class="menu-subcategory-title">Comida Criolla</h2>
+                    <hr>
+                    <div class="item-container">
+                        <div class="item-card">
+                            <div class="item-picture"> 
+                                <img src="images/desayuno-mariposa.jpg" alt="" srcset="">
+                            </div>
+                            <div class="item-info">
+                                <div class="item-info-title">
+                                    Desayuno Mariposa con jamon
+                                </div>
+                                <div class="item-info-price">
+                                    $400
+                                </div>
+                                <div class="item-info-description">
+                                    Huevos al gusto, tres tostadas, mantequilla, jamón y queso            
+                                </div>
+                                <div class="item-info-cart">
+                                    <button type="submit"  class="agg">
+                                        <i class="fa-solid fa-cart-plus"></i>
+                                        <div class="agg-text">
+                                            <span>Agregar</span>
+                                            <span>al carrito</span>
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item-card">
+                            <div class="item-picture"> 
+                                <img src="images/desayuno-mariposa.jpg" alt="" srcset="">
+                            </div>
+                            <div class="item-info">
+                                <div class="item-info-title">
+                                    Desayuno Mariposa con jamon
+                                </div>
+                                <div class="item-info-price">
+                                    $400
+                                </div>
+                                <div class="item-info-description">
+                                    Huevos al gusto, tres tostadas, mantequilla, jamón y queso            
+                                </div>
+                                <div class="item-info-cart">
+                                    <button type="submit"  class="agg">
+                                        <i class="fa-solid fa-cart-plus"></i>
+                                        <div class="agg-text">
+                                            <span>Agregar</span>
+                                            <span>al carrito</span>
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item-card">
+                            <div class="item-picture"> 
+                                <img src="images/desayuno-mariposa.jpg" alt="" srcset="">
+                            </div>
+                            <div class="item-info">
+                                <div class="item-info-title">
+                                    Desayuno Mariposa con jamon
+                                </div>
+                                <div class="item-info-price">
+                                    $400
+                                </div>
+                                <div class="item-info-description">
+                                    Huevos al gusto, tres tostadas, mantequilla, jamón y queso            
+                                </div>
+                                <div class="item-info-cart">
+                                    <button type="submit"  class="agg">
+                                        <i class="fa-solid fa-cart-plus"></i>
+                                        <div class="agg-text">
+                                            <span>Agregar</span>
+                                            <span>al carrito</span>
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item-card">
+                            <div class="item-picture"> 
+                                <img src="images/desayuno-mariposa.jpg" alt="" srcset="">
+                            </div>
+                            <div class="item-info">
+                                <div class="item-info-title">
+                                    Desayuno Mariposa con jamon
+                                </div>
+                                <div class="item-info-price">
+                                    $400
+                                </div>
+                                <div class="item-info-description">
+                                    Huevos al gusto, tres tostadas, mantequilla, jamón y queso            
+                                </div>
+                                <div class="item-info-cart">
+                                    <button type="submit"  class="agg">
+                                        <i class="fa-solid fa-cart-plus"></i>
+                                        <div class="agg-text">
+                                            <span>Agregar</span>
+                                            <span>al carrito</span>
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="Sandwich" class="submenu">
+                    <h2 class="menu-subcategory-title">Sandwich</h2>
+                    <hr>
+                    <div class="item-container">
+                        <div class="item-card">
+                            <div class="item-picture"> 
+                                <img src="images/desayuno-mariposa.jpg" alt="" srcset="">
+                            </div>
+                            <div class="item-info">
+                                <div class="item-info-title">
+                                    Desayuno Mariposa con jamon
+                                </div>
+                                <div class="item-info-price">
+                                    $400
+                                </div>
+                                <div class="item-info-description">
+                                    Huevos al gusto, tres tostadas, mantequilla, jamón y queso            
+                                </div>
+                                <div class="item-info-cart">
+                                    <button type="submit"  class="agg">
+                                        <i class="fa-solid fa-cart-plus"></i>
+                                        <div class="agg-text">
+                                            <span>Agregar</span>
+                                            <span>al carrito</span>
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="Hamburguesas" class="submenu">
+                    <h2 class="menu-subcategory-title">Hamburguesas</h2>
+                    <hr>
+                    <div class="item-container">
+                        <div class="item-card">
+                            <div class="item-picture"> 
+                                <img src="images/desayuno-mariposa.jpg" alt="" srcset="">
+                            </div>
+                            <div class="item-info">
+                                <div class="item-info-title">
+                                    Desayuno Mariposa con jamon
+                                </div>
+                                <div class="item-info-price">
+                                    $400
+                                </div>
+                                <div class="item-info-description">
+                                    Huevos al gusto, tres tostadas, mantequilla, jamón y queso            
+                                </div>
+                                <div class="item-info-cart">
+                                    <button type="submit"  class="agg">
+                                        <i class="fa-solid fa-cart-plus"></i>
+                                        <div class="agg-text">
+                                            <span>Agregar</span>
+                                            <span>al carrito</span>
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="Hot Dog" class="submenu">
+                    <h2 class="menu-subcategory-title">Perro Caliente</h2>
+                    <hr>
+                    <div class="item-container">
+                        <div class="item-card">
+                            <div class="item-picture"> 
+                                <img src="images/desayuno-mariposa.jpg" alt="" srcset="">
+                            </div>
+                            <div class="item-info">
+                                <div class="item-info-title">
+                                    Desayuno Mariposa con jamon
+                                </div>
+                                <div class="item-info-price">
+                                    $400
+                                </div>
+                                <div class="item-info-description">
+                                    Huevos al gusto, tres tostadas, mantequilla, jamón y queso            
+                                </div>
+                                <div class="item-info-cart">
+                                    <button type="submit"  class="agg">
+                                        <i class="fa-solid fa-cart-plus"></i>
+                                        <div class="agg-text">
+                                            <span>Agregar</span>
+                                            <span>al carrito</span>
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="Pizza/Pasta">
+                <h1 class="menu-category-title">Pizzas y Pastas</h1>
+                <div id="Pizza" class="submenu">
+                    <h2 class="menu-subcategory-title">Pizza</h2>
+                    <hr>
+                    <div class="item-container">
+                        <div class="item-card">
+                            <div class="item-picture"> 
+                                <img src="images/desayuno-mariposa.jpg" alt="" srcset="">
+                            </div>
+                            <div class="item-info">
+                                <div class="item-info-title">
+                                    Desayuno Mariposa con jamon
+                                </div>
+                                <div class="item-info-price">
+                                    $400
+                                </div>
+                                <div class="item-info-description">
+                                    Huevos al gusto, tres tostadas, mantequilla, jamón y queso            
+                                </div>
+                                <div class="item-info-cart">
+                                    <button type="submit"  class="agg">
+                                        <i class="fa-solid fa-cart-plus"></i>
+                                        <div class="agg-text">
+                                            <span>Agregar</span>
+                                            <span>al carrito</span>
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="Pizza Familiar" class="submenu">
+                    <h2 class="menu-subcategory-title">Pizza Familiar</h2>
+                    <hr>
+                    <div class="item-container">
+                        <div class="item-card">
+                            <div class="item-picture"> 
+                                <img src="images/desayuno-mariposa.jpg" alt="" srcset="">
+                            </div>
+                            <div class="item-info">
+                                <div class="item-info-title">
+                                    Desayuno Mariposa con jamon
+                                </div>
+                                <div class="item-info-price">
+                                    $400
+                                </div>
+                                <div class="item-info-description">
+                                    Huevos al gusto, tres tostadas, mantequilla, jamón y queso            
+                                </div>
+                                <div class="item-info-cart">
+                                    <button type="submit"  class="agg">
+                                        <i class="fa-solid fa-cart-plus"></i>
+                                        <div class="agg-text">
+                                            <span>Agregar</span>
+                                            <span>al carrito</span>
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="Pastas" class="submenu">
+                    <h2 class="menu-subcategory-title">Pastas</h2>
+                    <hr>
+                    <div class="item-container">
+                        <div class="item-card">
+                            <div class="item-picture"> 
+                                <img src="images/desayuno-mariposa.jpg" alt="" srcset="">
+                            </div>
+                            <div class="item-info">
+                                <div class="item-info-title">
+                                    Desayuno Mariposa con jamon
+                                </div>
+                                <div class="item-info-price">
+                                    $400
+                                </div>
+                                <div class="item-info-description">
+                                    Huevos al gusto, tres tostadas, mantequilla, jamón y queso            
+                                </div>
+                                <div class="item-info-cart">
+                                    <button type="submit"  class="agg">
+                                        <i class="fa-solid fa-cart-plus"></i>
+                                        <div class="agg-text">
+                                            <span>Agregar</span>
+                                            <span>al carrito</span>
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="Tacos">
+                <h1 class="menu-category-title">Tacos</h1>
+                <div id="Tacos" class="submenu">
+                    <h2 class="menu-subcategory-title">Tacos</h2>
+                    <hr>
+                    <div class="item-container">
+                        <div class="item-card">
+                            <div class="item-picture"> 
+                                <img src="images/desayuno-mariposa.jpg" alt="" srcset="">
+                            </div>
+                            <div class="item-info">
+                                <div class="item-info-title">
+                                    Desayuno Mariposa con jamon
+                                </div>
+                                <div class="item-info-price">
+                                    $400
+                                </div>
+                                <div class="item-info-description">
+                                    Huevos al gusto, tres tostadas, mantequilla, jamón y queso            
+                                </div>
+                                <div class="item-info-cart">
+                                    <button type="submit"  class="agg">
+                                        <i class="fa-solid fa-cart-plus"></i>
+                                        <div class="agg-text">
+                                            <span>Agregar</span>
+                                            <span>al carrito</span>
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="Bebidas">
+                <h1 class="menu-category-title">Bebidas</h1>
+                <div id="Bebidas" class="submenu">
+                    <h2 class="menu-subcategory-title">Bebidas</h2>
+                    <hr>
+                    <div class="item-container">
+                        <div class="item-card">
+                            <div class="item-picture"> 
+                                <img src="images/desayuno-mariposa.jpg" alt="" srcset="">
+                            </div>
+                            <div class="item-info">
+                                <div class="item-info-title">
+                                    Desayuno Mariposa con jamon
+                                </div>
+                                <div class="item-info-price">
+                                    $400
+                                </div>
+                                <div class="item-info-description">
+                                    Huevos al gusto, tres tostadas, mantequilla, jamón y queso            
+                                </div>
+                                <div class="item-info-cart">
+                                    <button type="submit"  class="agg">
+                                        <i class="fa-solid fa-cart-plus"></i>
+                                        <div class="agg-text">
+                                            <span>Agregar</span>
+                                            <span>al carrito</span>
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="Cocteles" class="submenu">
+                    <h2 class="menu-subcategory-title">Cocteles</h2>
+                    <hr>
+                    <div class="item-container">
+                        <div class="item-card">
+                            <div class="item-picture"> 
+                                <img src="images/desayuno-mariposa.jpg" alt="" srcset="">
+                            </div>
+                            <div class="item-info">
+                                <div class="item-info-title">
+                                    Desayuno Mariposa con jamon
+                                </div>
+                                <div class="item-info-price">
+                                    $400
+                                </div>
+                                <div class="item-info-description">
+                                    Huevos al gusto, tres tostadas, mantequilla, jamón y queso            
+                                </div>
+                                <div class="item-info-cart">
+                                    <button type="submit"  class="agg">
+                                        <i class="fa-solid fa-cart-plus"></i>
+                                        <div class="agg-text">
+                                            <span>Agregar</span>
+                                            <span>al carrito</span>
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="Infusiones-Cafe" class="submenu">
+                    <h2 class="menu-subcategory-title">Infusiones-Cafe</h2>
+                    <hr>
+                    <div class="item-container">
+                        <div class="item-card">
+                            <div class="item-picture"> 
+                                <img src="images/desayuno-mariposa.jpg" alt="" srcset="">
+                            </div>
+                            <div class="item-info">
+                                <div class="item-info-title">
+                                    Desayuno Mariposa con jamon
+                                </div>
+                                <div class="item-info-price">
+                                    $400
+                                </div>
+                                <div class="item-info-description">
+                                    Huevos al gusto, tres tostadas, mantequilla, jamón y queso            
+                                </div>
+                                <div class="item-info-cart">
+                                    <button type="submit"  class="agg">
+                                        <i class="fa-solid fa-cart-plus"></i>
+                                        <div class="agg-text">
+                                            <span>Agregar</span>
+                                            <span>al carrito</span>
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="Postres">
+                <h1 class="menu-category-title">Postres</h1>
+                <div id="Dulces" class="submenu">
+                    <h2 class="menu-subcategory-title">Dulces</h2>
+                    <hr>
+                    <div class="item-container">
+                        <div class="item-card">
+                            <div class="item-picture"> 
+                                <img src="images/desayuno-mariposa.jpg" alt="" srcset="">
+                            </div>
+                            <div class="item-info">
+                                <div class="item-info-title">
+                                    Desayuno Mariposa con jamon
+                                </div>
+                                <div class="item-info-price">
+                                    $400
+                                </div>
+                                <div class="item-info-description">
+                                    Huevos al gusto, tres tostadas, mantequilla, jamón y queso            
+                                </div>
+                                <div class="item-info-cart">
+                                    <button type="submit"  class="agg">
+                                        <i class="fa-solid fa-cart-plus"></i>
+                                        <div class="agg-text">
+                                            <span>Agregar</span>
+                                            <span>al carrito</span>
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="Helado" class="submenu">
+                    <h2 class="menu-subcategory-title">Helado</h2>
+                    <hr>
+                    <div class="item-container">
+                        <div class="item-card">
+                            <div class="item-picture"> 
+                                <img src="images/desayuno-mariposa.jpg" alt="" srcset="">
+                            </div>
+                            <div class="item-info">
+                                <div class="item-info-title">
+                                    Desayuno Mariposa con jamon
+                                </div>
+                                <div class="item-info-price">
+                                    $400
+                                </div>
+                                <div class="item-info-description">
+                                    Huevos al gusto, tres tostadas, mantequilla, jamón y queso            
+                                </div>
+                                <div class="item-info-cart">
+                                    <button type="submit"  class="agg">
+                                        <i class="fa-solid fa-cart-plus"></i>
+                                        <div class="agg-text">
+                                            <span>Agregar</span>
+                                            <span>al carrito</span>
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+
+    </footer>
+
+    <script src="script/main.js"></script>
+    <script src="https://kit.fontawesome.com/bee66d2a41.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
