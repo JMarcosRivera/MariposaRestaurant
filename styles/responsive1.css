@@ -96,4 +96,7 @@
         min-width:800px;
         align-items: center !important;
     }
+    .item-container{
+        gap:60px;
+    }    
 }
